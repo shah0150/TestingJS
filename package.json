@@ -1,0 +1,16 @@
+{
+  "name": "testjs",
+  "version": "1.0.0",
+  "description": "Test Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && zuul --local 1991 -- test.js"
+  },
+  "author": "Adesh",
+  "license": "ISC", 
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "zuul": "^3.10.1"
+  }
+}
